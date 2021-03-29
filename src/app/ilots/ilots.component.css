@@ -1,0 +1,45 @@
+  .ilots {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+  }
+  .ilots li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    color: darkslategray;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+  }
+  .ilots li:hover {
+    color: darkslategrey;
+    background-color:lightgrey;
+    left: .1em;
+  }
+  .ilots li.selected {
+    background-color: darkolivegreen;
+    color: white;
+  }
+  .ilots li.selected:hover {
+    background-color: springgreen;
+    color: white;
+  }
+  .ilots .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color:darkslategrey;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
+  

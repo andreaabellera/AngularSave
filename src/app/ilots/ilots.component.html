@@ -1,0 +1,12 @@
+<h2>Meet the Ilot Gang</h2>
+<ul class = "ilots">
+    <!-- <li *ngFor="let ilot of ilots"
+    [class.selected] = "ilot === chosenIlot" 
+    (click)="onSelect(ilot)"> -->
+    <li *ngFor="let ilot of ilots">
+        <a routerLink="/detail/{{ilot.name}}"></a>
+        <span class="badge">{{ilot.role}}</span>{{ilot.name}}
+    </li>
+</ul>
+
+<!-- <app-ilot-detail [ilot]="chosenIlot"></app-ilot-detail> -->
